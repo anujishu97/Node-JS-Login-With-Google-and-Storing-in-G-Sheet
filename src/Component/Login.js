@@ -87,7 +87,7 @@ export default class AdminLogin extends Component {
       <input type="submit" class="fadeIn fourth" value="Log In" onClick={()=>this.submitForm()}/>
      {/* // <input type="submit" class="fadeIn fourth" value="Sign-Up with Google" style={{backgroundColor:"red"}} /> */}
      <GoogleLogin 
-    clientId=""
+    clientId="385254857455-en8l4o9hvtt4tmmqsaahc2qgglitl180.apps.googleusercontent.com"
     buttonText="Login"
     onSuccess={this.responseGoogle}
     onFailure={this.responseGoogle}
